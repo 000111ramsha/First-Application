@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download My App</title>
+    <style>
+        /* Add some basic styling to make the website look nice */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .download-button {
+            background-color: #0cb6ea;
+            color: #fff;
+            padding: 15px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .download-button:hover {
+            background-color: #a1daf6;
+        }
+    </style>
+</head>
+<body>
+    <h1>Download <span style="color: rgb(80, 198, 240); ">Smart School Shuttle </span>App</h1>
+    <p>Click the button below to download the APK file.</p>
+    <button class="download-button">Download APK</button>
+    <script>
+        // Add an event listener to the button to trigger the download
+        document.querySelector('.download-button').addEventListener('click', function() {
+            // Replace 'my_app.apk' with the actual filename of your APK file
+            window.location.href = 'Apk file/SmartSchoolShuttle.apk';
+        });
+    </script>
+</body>
+</html>
